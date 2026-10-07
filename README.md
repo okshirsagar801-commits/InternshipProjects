@@ -1,45 +1,64 @@
-# Airline Reservation System in C
+# Library Management System in C
 
 ## Project Description
+The Library Management System is a console-based application developed using the C programming language. It is designed to manage books and library members efficiently. The system allows users to add, display, search, issue, and return books through a simple menu-driven interface.
 
-The Airline Reservation System is a menu-driven console application developed using the C programming language. It allows users to display seats, book seats, cancel reservations, and view passenger details.
+## Objectives
+- To develop a simple library management system using C.
+- To practice fundamental C programming concepts.
+- To manage book and member records.
+- To implement file handling for storing data.
+- To provide an easy-to-use menu-driven interface.
 
 ## Features
-
-* Display seat availability
-* Book a seat
-* Cancel a seat reservation
-* View passenger details
-* Menu-driven interface
+- Add new books
+- Display available books
+- Search for books
+- Add library members
+- Display member details
+- Issue books
+- Return books
+- Store and manage records using files
+- Simple console-based interface
 
 ## Technologies Used
+- C Programming
+- Structures
+- Functions
+- File Handling
+- Arrays
+- Loops
+- Conditional Statements
 
-* C Programming
-* GCC Compiler
-* Arrays and control statements
-* Functions
-* Console-based programming
+## Project Files
+- `library.c` – Main C source code
+- `books.dat` – Stores book records
+- `members.dat` – Stores member records
+- `README.md` – Project documentation
 
-## How to Compile and Run
+## How to Run
 
-### Compile
+Compile the program:
 
-```bash
-gcc airline.c -o airline
-```
+    gcc library.c -o library
 
-### Run on Windows PowerShell
+Run the program:
 
-```powershell
-.\airline
-```
+    .\library
 
-If Windows blocks the executable, follow your computer's approved security process rather than bypassing its restrictions.
+## Main Menu
 
-## Project Type
+1. Add Book
+2. Display Books
+3. Search Book
+4. Add Member
+5. Display Members
+6. Issue Book
+7. Return Book
+8. Exit
 
-C Programming Internship Project
+## Internship Project
+This project was developed as part of my C Programming Internship.
 
-## Developer
-
-Onkar Kshirsagar
+## Author
+**Onkar Kshirsagar**
